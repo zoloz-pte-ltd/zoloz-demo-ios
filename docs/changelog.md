@@ -1,6 +1,9 @@
 # Change Log
 All notable changes, such as SDK releases, updates and fixes, are documented in this file.
 
+## Version 1.2.2
++ fix the duplicate symbol for nanopb.
+
 ## Version 1.2.1
 + Improve flash detection capabilities
 + Improve the reverse side of documents detection capabilities
