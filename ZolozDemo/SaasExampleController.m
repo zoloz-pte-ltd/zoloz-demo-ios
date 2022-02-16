@@ -99,11 +99,12 @@
 }
 
 - (void)checkResultWithId:(NSString*)transactionId{
-    NSString *mockServerUrl = [NSString stringWithFormat:@"%@/api/realid/checkresult",[EditTextutils getAndSave:_host]];
+    NSString *checkResultServerUrl = [NSString stringWithFormat:@"%@%@",[EditTextutils getAndSave:_host], [EditTextutils getAndSave:_ref]];
+    checkResultServerUrl = [checkResultServerUrl stringByReplacingOccurrencesOfString:@"initialize" withString:@"checkresult"];
     NSDictionary *_paramDic = @{
         @"transactionId":transactionId,
     };
-    [self requestWithUrl:[NSURL URLWithString:mockServerUrl] bodyDic:_paramDic completionHandler:^(NSDictionary *data) {
+    [self requestWithUrl:[NSURL URLWithString:checkResultServerUrl] bodyDic:_paramDic completionHandler:^(NSDictionary *data) {
         [self simpleAlertWithTitle:@"check Result" andMessage:[NSString stringWithFormat:@"%@",data]];
     }];
     
