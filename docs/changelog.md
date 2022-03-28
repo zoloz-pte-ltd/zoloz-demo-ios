@@ -1,6 +1,10 @@
 # Change Log
 All notable changes, such as SDK releases, updates and fixes, are documented in this file.
 
+
+## Version 1.2.3.220328112216
++ Fix compatibility issues on some devices
+
 ## Version 1.2.3.220321153641
 + fix the duplicate symbol for nanopb.
 
