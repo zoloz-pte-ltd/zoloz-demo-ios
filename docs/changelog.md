@@ -1,6 +1,8 @@
 # Change Log
 All notable changes, such as SDK releases, updates and fixes, are documented in this file.
 
+## Version 1.2.4.220422163646
++ Fix bitcode problem.
 
 ## Version 1.2.3.220328112216
 + Fix compatibility issues on some devices
