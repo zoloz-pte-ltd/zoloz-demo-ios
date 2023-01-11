@@ -1,6 +1,9 @@
 # Change Log
 All notable changes, such as SDK releases, updates and fixes, are documented in this file.
 
+## Version 1.2.10.230111134406
++ Improve doc detection capabilities
+
 ## Version 1.2.9.221008150914
 + Improve ui config capabilities
 
