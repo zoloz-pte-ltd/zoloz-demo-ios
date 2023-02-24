@@ -25,7 +25,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "zolozkit"
-  s.version      = "1.2.10.230111134406"
+  s.version      = "1.2.11.230224105332"
   s.summary      = "zolozkit"
 
   s.description  = <<-DESC
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   s.author       = { "zolozAdmin" => "zoloz-github@antgroup.com" }
   s.platform     = :ios, '5.0'
   s.ios.deployment_target = '5.0'
-  s.source = { :http => 'https://zoloz-pipe.oss-ap-southeast-1.aliyuncs.com/saas/1.2.10.230111134406.zip' }
+  s.source = { :http => 'https://zoloz-pipe.oss-ap-southeast-1.aliyuncs.com/saas/1.2.11.230224105332.zip' }
   s.frameworks = "AVFoundation", "OpenGLES","CoreTelephony", "CoreMotion", "CoreLocation", "SystemConfiguration", "Accelerate", "CoreMedia","CoreServices","CoreGraphics","QuartzCore","CoreVideo","CoreImage","WebKit"
   s.libraries = 'c++', 'z'
   s.subspec 'Core' do |core|
