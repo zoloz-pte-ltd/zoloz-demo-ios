@@ -1,6 +1,10 @@
 # Change Log
 All notable changes, such as SDK releases, updates and fixes, are documented in this file.
 
+## Version 1.2.15.230526101106
++ Fix some bugs.
++ Improve face detection capabilities
+
 ## Version 1.2.12.230403175254
 + Improve doc detection capabilities
 
