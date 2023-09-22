@@ -22,7 +22,7 @@
 // SOFTWARE.
 // 
 #import "AppDelegate.h"
-#import "SaasExampleController.h"
+#import "SaasMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -43,7 +43,7 @@
 //                                                                                                 @"titleBarColor":@"0xFFFFFF",
 //                                                                                                 @"backButtonImage": @"img/jiantou.png",
 //                                                                                                 @"titleColor": @"0x000000"}];
-    SaasExampleController *viewController = [[SaasExampleController alloc] init];
+    SaasMainViewController *viewController = [[SaasMainViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = nav;

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,8 +26,10 @@
 		AFF99DEB2175D3E30079C5B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF99DEA2175D3E30079C5B0 /* main.m */; };
 		AFF99DF22175D9F40079C5B0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF99DF12175D9F40079C5B0 /* Accelerate.framework */; };
 		AFF99DF42175D9FA0079C5B0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF99DF32175D9FA0079C5B0 /* CoreMedia.framework */; };
-		BFCC4D57254FDF30006FD2B2 /* EditTextutils.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCC4D56254FDF30006FD2B2 /* EditTextutils.m */; };
 		BFF63944251DD2EE00BC42AB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF63943251DD2EE00BC42AB /* WebKit.framework */; };
+		C840A0502AB308A10022A97E /* SaasMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C840A04E2AB308A10022A97E /* SaasMainViewController.m */; };
+		C840A0532AB30BC20022A97E /* SwiftSaasExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840A0522AB30BC20022A97E /* SwiftSaasExampleController.swift */; };
+		C840A0552AB30E810022A97E /* SwiftEditTextUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840A0542AB30E810022A97E /* SwiftEditTextUtils.swift */; };
 		D0AA3B3317ED2CFAE5C170DD /* libPods-ZolozDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8FFB56536C0AACF5531F4D /* libPods-ZolozDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -58,9 +60,12 @@
 		AFF99DEA2175D3E30079C5B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFF99DF12175D9F40079C5B0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		AFF99DF32175D9FA0079C5B0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		BFCC4D55254FDF30006FD2B2 /* EditTextutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditTextutils.h; sourceTree = "<group>"; };
-		BFCC4D56254FDF30006FD2B2 /* EditTextutils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditTextutils.m; sourceTree = "<group>"; };
 		BFF63943251DD2EE00BC42AB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C840A04E2AB308A10022A97E /* SaasMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaasMainViewController.m; sourceTree = "<group>"; };
+		C840A04F2AB308A10022A97E /* SaasMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaasMainViewController.h; sourceTree = "<group>"; };
+		C840A0512AB30BC10022A97E /* ZolozDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZolozDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C840A0522AB30BC20022A97E /* SwiftSaasExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSaasExampleController.swift; sourceTree = "<group>"; };
+		C840A0542AB30E810022A97E /* SwiftEditTextUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftEditTextUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,10 +139,13 @@
 				AFF99DE62175D3E30079C5B0 /* LaunchScreen.storyboard */,
 				AFF99DE92175D3E30079C5B0 /* Info.plist */,
 				AFF99DEA2175D3E30079C5B0 /* main.m */,
+				C840A04F2AB308A10022A97E /* SaasMainViewController.h */,
+				C840A04E2AB308A10022A97E /* SaasMainViewController.m */,
 				AF62AC2523A9FCA900C8EBAA /* SaasExampleController.h */,
 				AF62AC2623A9FCA900C8EBAA /* SaasExampleController.m */,
-				BFCC4D55254FDF30006FD2B2 /* EditTextutils.h */,
-				BFCC4D56254FDF30006FD2B2 /* EditTextutils.m */,
+				C840A0522AB30BC20022A97E /* SwiftSaasExampleController.swift */,
+				C840A0542AB30E810022A97E /* SwiftEditTextUtils.swift */,
+				C840A0512AB30BC10022A97E /* ZolozDemo-Bridging-Header.h */,
 			);
 			path = ZolozDemo;
 			sourceTree = "<group>";
@@ -176,6 +184,7 @@
 				AFF99DD52175D3E10079C5B0 /* Frameworks */,
 				AFF99DD62175D3E10079C5B0 /* Resources */,
 				8A465BC0AF20AF1B5644C78B /* [CP] Copy Pods Resources */,
+				2CE0B77CF9871559C16B3C24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +206,7 @@
 				TargetAttributes = {
 					AFF99DD72175D3E10079C5B0 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -254,6 +264,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2CE0B77CF9871559C16B3C24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZolozDemo/Pods-ZolozDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZolozDemo/Pods-ZolozDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZolozDemo/Pods-ZolozDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8A465BC0AF20AF1B5644C78B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,9 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C840A0532AB30BC20022A97E /* SwiftSaasExampleController.swift in Sources */,
+				C840A0552AB30E810022A97E /* SwiftEditTextUtils.swift in Sources */,
 				AF62AC2723A9FCA900C8EBAA /* SaasExampleController.m in Sources */,
 				AFF99DEB2175D3E30079C5B0 /* main.m in Sources */,
-				BFCC4D57254FDF30006FD2B2 /* EditTextutils.m in Sources */,
+				C840A0502AB308A10022A97E /* SaasMainViewController.m in Sources */,
 				AFF99DDD2175D3E10079C5B0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,17 +447,18 @@
 			baseConfigurationReference = 9BD00349E4D720B22EA3CDB8 /* Pods-ZolozDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KV9CHCT52;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				INFOPLIST_FILE = ZolozDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,10 +466,14 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
+					"-ld64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoloz.demo;
 				PRODUCT_NAME = ZolozSaasExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZolozDemo/ZolozDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -449,17 +483,18 @@
 			baseConfigurationReference = 54C520EBC83E09AD1E1592C7 /* Pods-ZolozDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KV9CHCT52;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				INFOPLIST_FILE = ZolozDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,10 +502,13 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
+					"-ld64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoloz.demo;
 				PRODUCT_NAME = ZolozSaasExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZolozDemo/ZolozDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

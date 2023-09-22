@@ -1,6 +1,10 @@
 # Change Log
 All notable changes, such as SDK releases, updates and fixes, are documented in this file.
 
+## Version 1.3.1.230921114719
++ Fix some bugs
++ add new feature for doc detection by NFC
+
 ## Version 1.2.16.230625103957
 + Fix some bugs.
 

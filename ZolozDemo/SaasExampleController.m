@@ -27,8 +27,8 @@
 #import <hummer/ZLZFacade.h>
 #import <hummer/ZLZRequest.h>
 #import <hummer/ZLZResponse.h>
-#import "EditTextutils.h"
-
+//#import "EditTextutils.h"
+#import "ZolozSaasExample-Swift.h"
 
 @interface SaasExampleController ()
 @property (nonatomic,strong) UITextField *host;
@@ -41,13 +41,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"ZOLOZ Demo";
+    self.title = @"saas demo oc";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    _host = [EditTextutils setup:self.view label:@"HOST" defaultValue:@"http://lan_ip:lan_port" index:1];
-    _ref = [EditTextutils setup:self.view label:@"API" defaultValue:@"/api/realid/initialize" index:2];
-    _docType = [EditTextutils setup:self.view label:@"DOC" defaultValue:@"00000001003" index:3];
-    _level = [EditTextutils setup:self.view label:@"LEVEL" defaultValue:@"REALID0002" index: 4];
+    _host = [SwiftEditTextUtils createTextFieldOn:self.view with:@"HOST" defaultTitle:@"http://lan_ip:lan_port" index:1];
+    _ref = [SwiftEditTextUtils createTextFieldOn:self.view with:@"API" defaultTitle:@"/api/realid/initialize" index:2];
+    _docType = [SwiftEditTextUtils createTextFieldOn:self.view with:@"DOC" defaultTitle:@"00000001003" index:3];
+    _level = [SwiftEditTextUtils createTextFieldOn:self.view with:@"LEVEL" defaultTitle:@"REALID0002" index:4];
     
     UIButton *btn2 = [[UIButton alloc] initWithFrame:CGRectMake(20, 50 + 50 * 5, 200, 50)];
     btn2.backgroundColor = [UIColor darkGrayColor];
@@ -57,16 +57,15 @@
 }
 
 
-
 - (void)startsaas {
-    NSString * urlStr = [NSString stringWithFormat:@"%@%@", [EditTextutils getAndSave:_host], [EditTextutils getAndSave:_ref]];
+    NSString * urlStr = [NSString stringWithFormat:@"%@%@", [SwiftEditTextUtils getAndSaveWithTextField:_host], [SwiftEditTextUtils getAndSaveWithTextField:_ref]];
 
     NSString *metainfo = [ZLZFacade getMetaInfo];
  
     NSDictionary *_paramDic = @{
         @"metaInfo":metainfo,
-        @"serviceLevel": [EditTextutils getAndSave:_level],
-        @"docType": [EditTextutils getAndSave:_docType]
+        @"serviceLevel": [SwiftEditTextUtils getAndSaveWithTextField:_level],
+        @"docType": [SwiftEditTextUtils getAndSaveWithTextField:_docType]
     };
 
     
@@ -99,13 +98,14 @@
 }
 
 - (void)checkResultWithId:(NSString*)transactionId{
-    NSString *checkResultServerUrl = [NSString stringWithFormat:@"%@%@",[EditTextutils getAndSave:_host], [EditTextutils getAndSave:_ref]];
+    NSString *checkResultServerUrl = [NSString stringWithFormat:@"%@%@",[SwiftEditTextUtils getAndSaveWithTextField:_host], [SwiftEditTextUtils getAndSaveWithTextField:_ref]];
     checkResultServerUrl = [checkResultServerUrl stringByReplacingOccurrencesOfString:@"initialize" withString:@"checkresult"];
     NSDictionary *_paramDic = @{
         @"transactionId":transactionId,
     };
     [self requestWithUrl:[NSURL URLWithString:checkResultServerUrl] bodyDic:_paramDic completionHandler:^(NSDictionary *data) {
-        [self simpleAlertWithTitle:@"check Result" andMessage:[NSString stringWithFormat:@"%@",data]];
+//        [self simpleAlertWithTitle:@"check Result" andMessage:[NSString stringWithFormat:@"%@",data]];
+        NSLog(@"checkReuslt===%@",data);
     }];
     
 }
@@ -131,9 +131,9 @@
                                           {
                                               NSError *parseError = nil;
                                               NSDictionary *retDict = [NSJSONSerialization JSONObjectWithData:data options:0 error:&parseError];
-                                              block(retDict);
-                                              
-                                          
+                                              dispatch_async(dispatch_get_main_queue(), ^{
+                                                  block(retDict);
+                                              });
                                           }
                                           else
                                           {
