@@ -21,5 +21,8 @@
 # SOFTWARE.
 source 'https://github.com/zoloz-pte-ltd/zoloz-demo-ios'
 target 'ZolozDemo' do
-  pod 'zolozkit' 
+  #We recommend use our latest version, which includes new features and security improvements. If you need more information about specific version, please check the change log (https://docs.zoloz.com/zoloz/saas/releasenotes)
+  pod 'zolozkit'  #core modules
+  pod 'zolozkit/ZolozNfcReader' #nfc reader module
+  pod 'zolozkit/APPSecuritySDK' #nearX (APPSecuritySDK) module
 end
