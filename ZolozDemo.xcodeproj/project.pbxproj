@@ -27,6 +27,7 @@
 		AFF99DF22175D9F40079C5B0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF99DF12175D9F40079C5B0 /* Accelerate.framework */; };
 		AFF99DF42175D9FA0079C5B0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF99DF32175D9FA0079C5B0 /* CoreMedia.framework */; };
 		BFF63944251DD2EE00BC42AB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF63943251DD2EE00BC42AB /* WebKit.framework */; };
+		C81934382BA29F2C002B74BD /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81934372BA29F2C002B74BD /* CoreNFC.framework */; };
 		C840A0502AB308A10022A97E /* SaasMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C840A04E2AB308A10022A97E /* SaasMainViewController.m */; };
 		C840A0532AB30BC20022A97E /* SwiftSaasExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840A0522AB30BC20022A97E /* SwiftSaasExampleController.swift */; };
 		C840A0552AB30E810022A97E /* SwiftEditTextUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840A0542AB30E810022A97E /* SwiftEditTextUtils.swift */; };
@@ -61,6 +62,7 @@
 		AFF99DF12175D9F40079C5B0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		AFF99DF32175D9FA0079C5B0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		BFF63943251DD2EE00BC42AB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C81934372BA29F2C002B74BD /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 		C840A04E2AB308A10022A97E /* SaasMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaasMainViewController.m; sourceTree = "<group>"; };
 		C840A04F2AB308A10022A97E /* SaasMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaasMainViewController.h; sourceTree = "<group>"; };
 		C840A0512AB30BC10022A97E /* ZolozDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZolozDemo-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81934382BA29F2C002B74BD /* CoreNFC.framework in Frameworks */,
 				BFF63944251DD2EE00BC42AB /* WebKit.framework in Frameworks */,
 				AFF1D63224AA0E8F00946C12 /* SystemConfiguration.framework in Frameworks */,
 				AFF1D63024AA0E8800946C12 /* CoreLocation.framework in Frameworks */,
@@ -153,6 +156,7 @@
 		C525FE3A8BF3CA3076F7E1D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C81934372BA29F2C002B74BD /* CoreNFC.framework */,
 				BFF63943251DD2EE00BC42AB /* WebKit.framework */,
 				AFF1D63124AA0E8F00946C12 /* SystemConfiguration.framework */,
 				AFF1D62F24AA0E8800946C12 /* CoreLocation.framework */,
