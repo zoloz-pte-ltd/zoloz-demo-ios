@@ -27,6 +27,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Obtain the connectivity of devices in the local area network to detect risks such as device ranching and group control</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Used to obtain IDFA information and enhance the stability of device ID</string>
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
 	<key>CFBundleDevelopmentRegion</key>
