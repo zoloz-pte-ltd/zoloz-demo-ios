@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.ios.deployment_target = '5.0'
   s.source = { :http => 'https://hk-production-cdn.zoloz.net/ios/zolozkit_1.3.7.240417164517.zip' }
-  s.frameworks = "AVFoundation", "OpenGLES","CoreTelephony", "CoreMotion", "CoreLocation", "SystemConfiguration", "Accelerate", "CoreMedia","CoreServices","CoreGraphics","QuartzCore","CoreVideo","CoreImage","WebKit","CoreNFC"
+  s.frameworks = "AVFoundation", "OpenGLES","CoreTelephony", "CoreMotion", "CoreLocation", "SystemConfiguration", "Accelerate", "CoreMedia","CoreServices","CoreGraphics","QuartzCore","CoreVideo","CoreImage","WebKit"
   s.libraries = 'c++', 'z'
   s.subspec 'Core' do |core|
     core.vendored_frameworks = 'zolozkit.framework','hummer.framework','ZolozIdentityManager.framework','BioAuthEngine.framework','BioAuthAPI.framework','ZLZProtoBufferLite.framework','ToygerService.framework','ToygerServiceAlgo.framework','xNN.framework'
@@ -61,6 +61,7 @@ Pod::Spec.new do |s|
   s.subspec 'ZolozNfcReader' do |ss|
     ss.vendored_frameworks = 'xNN.framework','ZolozNfcReader.framework'
     ss.resources = "ZolozNfcReader.framework/ZolozNfcReader.bundle"
+    ss.framework = "CoreNFC"
   end
   s.subspec 'APPSecuritySDK' do |securitySDK|
     securitySDK.vendored_frameworks = 'APPSecuritySDK.framework'
