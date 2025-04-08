@@ -56,10 +56,6 @@ public class SwiftSaasExampleController: UIViewController {
             
             let bizParam = NSMutableDictionary()
             bizParam[kZLZCurrentViewControllerKey] = self
-
-            if let rsaPubKey = data[kZLZPubkey] as? String {
-                bizParam[kZLZPubkey] = rsaPubKey
-            }
             
             let clientConfig = data["clientCfg"] as? String
             let transactionId = data["transactionId"] as? String

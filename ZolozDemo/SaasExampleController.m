@@ -77,10 +77,6 @@
              
         NSMutableDictionary *bizParam = [NSMutableDictionary dictionary];
         [bizParam setObject:self forKey:kZLZCurrentViewControllerKey];
-
-        if ([data objectForKey:@"rsaPubKey"]) {
-             [bizParam setObject:[data objectForKey:@"rsaPubKey"] forKey:kZLZPubkey];
-        }
               
         NSString *clientConfig = [data objectForKey:@"clientCfg"];
         NSString *transactionId = [data objectForKey:@"transactionId"];

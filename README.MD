@@ -80,8 +80,6 @@ You can omit `--repo-update` to speed up the installation, but watch out as you 
    //.pass the current ViewController to bizConfig
    NSMutableDictionary *bizConfig = [NSMutableDictionary dictionary];
    [bizConfig setObject:self forKey:kZLZCurrentViewControllerKey];
-   //.pass the public key to bizConfig
-   [bizConfig setObject:publicKey forKey:kZLZPubkey];
    //.pass the locale to bizConfig
    [bizConfig setObject:locale forKey:kZLZLocaleKey]
    ZLZRequest *request = [[ZLZRequest alloc] initWithzlzConfig:clientConfig bizConfig:bizConfig];
