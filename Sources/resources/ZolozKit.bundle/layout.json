@@ -1,0 +1,55 @@
+{
+    "zface": {
+        "view": "standard"
+    },
+    "zdoc": {
+        "00000001003_1": {
+            "name": "Passport",
+            "view": "passport_half_frame"
+        },
+        "00860000001_1": {
+            "name": "Second-generation ID Card Front",
+            "view": "standard_frame"
+        },
+        "00860000001_2": {
+            "name": "Second-generation ID Card Back",
+            "view": "standard_frame"
+        },
+        "00860000006_1": {
+            "name": "Hometown Permit Front",
+            "view": "standard_frame"
+        },
+        "00860000006_2": {
+            "name": "Hometown Permit Back",
+            "view": "standard_frame"
+        },
+        "00860000007_1": {
+            "name": "Mainland Travel Permit for Taiwan Residents",
+            "view": "standard_frame"
+        },
+        "00630000028_1": {
+            "name": "Philippines Passport",
+            "view": "passport_half_frame"
+        },
+        "00630000031_1": {
+            "name": "passport-old version Front",
+            "view": "passport_half_frame"
+        },
+        "00630000031_2": {
+            "name": "passport-old version Back",
+            "view": "passport_half_frame"
+        },
+        "00630000032_1": {
+            "name": "passport-new version Front",
+            "view": "passport_half_frame"
+        },
+        "00630000032_2": {
+          "name": "passport-new version Back",
+          "view": "passport_half_frame"
+        },
+        "00860000011_1": {
+            "name": "Hong Kong And Macao Pass",
+            "view": "standard_frame"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "OCR_PreProcess_Para": {
+        "pre_type": "static",
+        "pre_option": ""
+    },
+    "OCR_Detect_Para": {
+        "detect_type": "2",
+        "detect_isOnlyOneRect": "true", 
+        "detect_min_conf": "0.1",
+  "detect_min_max_height": "4;640", 
+  "detect_min_max_width": "4;640", 
+        "detect_start_end_opName": "feature_fusion/Conv_7/Sigmoid;feature_fusion/concat_3",
+        "detect_option": "8,16,32;32,64,128;39;1;480;480;BG,OCRCODE1,OCRCODE2;OCRCODE1,OCRCODE2"
+    }, 
+    "OCR_LineTransform_Para": {
+        "transform_type": "1",
+        "transform_expandRatio": "1.6;0.05",
+        "transform_option": ""
+    }, 
+    "OCR_LineRecognize_Para": {
+        "rec_type": "0",
+        "rec_min_conf": "0.90",
+        "rec_resizetype": "1",
+        "rec_padValue": "0", 
+        "rec_isDetectBlank": "0", 
+        "rec_DetectBlankTh": "0", 
+        "rec_start_end_opName": "CTCGreedyDecoder;CTCGreedyDecoder:1", 
+        "rec_option": ""
+    },
+    "OCR_PostProcess_Para": {
+        "post_type": "passport",
+        "post_option": ""
+    }
+
+}

@@ -1,0 +1,162 @@
+{
+  "00630000024": {
+    "doc_type": "00630000024",
+    "doc_name": "菲律宾健康卡(PHILHEALTH)",
+    "language": "en-US"
+  },
+  "00630000022": {
+    "doc_type": "00630000022",
+    "doc_name": "菲律宾选民证(Voter s ID)",
+    "language": "en-US"
+  },
+  "00630000001": {
+    "doc_type": "00630000001",
+    "doc_name": "菲律宾 UMID",
+    "language": "en-US"
+  },
+  "00630000002": {
+    "doc_type": "00630000002",
+    "doc_name": "菲律宾 TIN ID",
+    "language": "en-US"
+  },
+  "00630000020": {
+    "doc_type": "00630000020",
+    "doc_name": "菲律宾(SSS ID)",
+    "language": "en-US"
+  },
+  "00630000016": {
+    "doc_type": "00630000016",
+    "doc_name": "菲律宾 Postal ID",
+    "language": "en-US"
+  },
+  "00630000017": {
+    "doc_type": "00630000017",
+    "doc_name": "菲律宾 PRC ID",
+    "language": "en-US"
+  },
+  "00000001006": {
+    "doc_type": "00000001006",
+    "doc_name": "通用护照.v2",
+    "language": "en-US,zh-Hans,zh-Hant"
+  },
+  "08860000001": {
+    "doc_type": "08860000001",
+    "doc_name": "台湾身份证",
+    "language": "zh-Hant"
+  },
+  "00860000007": {
+    "doc_type": "00860000007",
+    "doc_name": "台湾居民来往大陆通行证",
+    "language": "zh-Hans"
+  },
+  "08530000001": {
+    "doc_type": "08530000001",
+    "doc_name": "澳门身份证",
+    "language": "zh-Hant"
+  },
+  "00630000031": {
+    "doc_type": "00630000031",
+    "doc_name": "菲律宾旧版护照",
+    "language": "en-US"
+  },
+  "00840000001": {
+    "doc_type": "00840000001",
+    "doc_name": "越南身份证",
+    "language": "en-US"
+  },
+  "00600000004": {
+    "doc_type": "00600000004",
+    "doc_name": "马来 MyArmy",
+    "language": "en-US"
+  },
+  "00860000006": {
+    "doc_type": "00860000006",
+    "doc_name": "港澳居民来往大陆通行证",
+    "language": "zh-Hans"
+  },
+  "00630000004": {
+    "doc_type": "00630000004",
+    "doc_name": "菲律宾驾照",
+    "language": "en-US"
+  },
+  "00630000032": {
+    "doc_type": "00630000032",
+    "doc_name": "菲律宾新版护照",
+    "language": "en-US"
+  },
+  "00630000033": {
+    "doc_type": "00630000033",
+    "doc_name": "菲律宾国民身份证",
+    "language": "en-US"
+  },
+  "08520000002": {
+    "doc_type": "08520000002",
+    "doc_name": "香港2代证",
+    "language": "zh-Hant"
+  },
+  "00860000011": {
+    "doc_type": "00860000011",
+    "doc_name": "大陆居民往来港澳通行证",
+    "language": "zh-Hans"
+  },
+  "08520000001": {
+    "doc_type": "08520000001",
+    "doc_name": "香港1代证",
+    "language": "zh-Hant"
+  },
+  "00860000001": {
+    "doc_type": "00860000001",
+    "doc_name": "大陆身份证",
+    "language": "zh-Hans"
+  },
+  "00620000001": {
+    "doc_type": "00620000001",
+    "doc_name": "印尼身份证 EKTP",
+    "language": "en-US"
+  },
+  "00600000001": {
+    "doc_type": "00600000001",
+    "doc_name": "马来 MyKad",
+    "language": "en-US"
+  },
+  "00660000001": {
+    "doc_type": "00660000001",
+    "doc_name": "泰国身份证",
+    "language": "en-US"
+  },
+  "00840000002": {
+    "doc_type": "00840000002",
+    "doc_name": "越南3代证",
+    "language": "en-US"
+  },
+  "00000001003": {
+    "doc_type": "00000001003",
+    "doc_name": "通用护照",
+    "language": "en-US"
+  },
+  "08550000001": {
+    "doc_type": "08550000001",
+    "doc_name": "柬埔寨NID",
+    "language": "en-US"
+  },
+  "00630000034": {
+    "doc_type": "00630000034",
+    "doc_name": "菲律宾国民身份证-打印电子版",
+    "language": "en-US"
+  },
+  "00810000001": {
+    "doc_type": "00810000001",
+    "doc_name": "日本驾照",
+    "language": "ja-JP"
+  },
+  "00630000036": {
+    "doc_type": "00630000036",
+    "doc_name": "菲律宾新版TIN卡",
+    "language": "en-US"
+  },
+  "00620000004": {
+    "doc_type": "00620000004",
+    "doc_name": "印尼纳税证",
+    "language": "en-US"
+  }
+}
