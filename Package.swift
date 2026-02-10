@@ -28,7 +28,6 @@ let package = Package(
         
     ],
     targets: [
-        // Binary Targets - 使用远程OSS链接
         .binaryTarget(
             name: "zolozkit",
             url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/zolozkit.xcframework.zip",
@@ -51,8 +50,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "BioAuthAPI",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/BioAuthAPI.xcframework.zip",
-            checksum: "d1bab2d2bd2dec03d882a0c89e4188555116869a4095098bacb56c935b8bdd13"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/BioAuthAPI0209.xcframework.zip",
+            checksum: "8a6015c37f3c69c4e1607ad6ff9c2f18e8307fc4ef3f27340d7bc5a78aa2d029"
         ),
         .binaryTarget(
             name: "ZLZProtoBufferLite",
