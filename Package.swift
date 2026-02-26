@@ -80,8 +80,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "APPSecuritySDK_ekyc",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/APPSecuritySDK_ekyc.xcframework.zip",
-            checksum: "7edd91bf43c06b6c134746b2052235089f3fa172f89182885c548b3b0812bb38"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/APPSecuritySDK_ekyc0213.xcframework.zip",
+            checksum: "eefdf29222bbb7ddfc4c4f61bfd7e39280d57ecab5675cae0db14b56d691d934"
         ),
         .binaryTarget(
             name: "faceguard",
