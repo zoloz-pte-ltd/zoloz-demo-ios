@@ -1,0 +1,36 @@
+PODS:
+  - zolozkit (2.2.3.260804171638):
+    - zolozkit/zolozkitWithWebContainer (= 2.2.3.260804171638)
+  - zolozkit/APPSecuritySDK (2.2.3.260804171638)
+  - zolozkit/Cherry (2.2.3.260804171638)
+  - zolozkit/Core (2.2.3.260804171638)
+  - zolozkit/Dependency (2.2.3.260804171638)
+  - zolozkit/faceguard (2.2.3.260804171638)
+  - zolozkit/xNN (2.2.3.260804171638)
+  - zolozkit/ZolozDocScan (2.2.3.260804171638)
+  - zolozkit/zolozkitWithWebContainer (2.2.3.260804171638):
+    - zolozkit/APPSecuritySDK
+    - zolozkit/Cherry
+    - zolozkit/Core
+    - zolozkit/Dependency
+    - zolozkit/faceguard
+    - zolozkit/xNN
+    - zolozkit/ZolozDocScan
+    - zolozkit/ZWebContainerAdapter
+  - zolozkit/ZolozNfcReader (2.2.3.260804171638)
+  - zolozkit/ZWebContainerAdapter (2.2.3.260804171638)
+
+DEPENDENCIES:
+  - zolozkit
+  - zolozkit/ZolozNfcReader
+
+SPEC REPOS:
+  https://github.com/zoloz-pte-ltd/zoloz-demo-ios:
+    - zolozkit
+
+SPEC CHECKSUMS:
+  zolozkit: d666a351001f68e064776e9c93ee09d78e372468
+
+PODFILE CHECKSUM: ca49be5e110fcab08d5f6245ce11be1cab167737
+
+COCOAPODS: 1.16.2

@@ -50,6 +50,30 @@
         "00860000011_1": {
             "name": "Hong Kong And Macao Pass",
             "view": "standard_frame"
+        },
+        "00000001006_1": {
+            "name":"Passport(with VIZ) Front",
+            "view":"passport_half_frame"
+        },
+        "00000001006_2": {
+            "name":"Passport(with VIZ) Back",
+            "view":"passport_half_frame"
+        },
+        "08520000008_1": {
+            "name": "Hong Kong And Macao Receipt",
+            "view": "paper_frame"
+        },
+        "08520000008_2": {
+            "name": "Hong Kong And Macao Receipt",
+            "view": "paper_frame"
+        },
+        "08530000004_1": {
+            "name": "Hong Kong And Macao Receipt",
+            "view": "paper_frame"
+        },
+        "08530000004_2": {
+            "name": "Hong Kong And Macao Receipt",
+            "view": "paper_frame"
         }
     }
 }

@@ -61,9 +61,14 @@ You can omit `--repo-update` to speed up the installation, but watch out as you 
    pod install
    ```
 
-4. Add `$(inherited)` and `-ObjC` and `-ld64`  in Other Linker Flags
+4. Add `-ObjC` and `-Wl,-no_fixup_chains`  in Other Linker Flags
 
-   ![add other linkner flag](https://zasia.oss-cn-beijing.aliyuncs.com/ios/githubDemo/config.png)
+```ruby
+   -ObjC
+   -Wl,-no_fixup_chains
+   ```
+
+   ![add other linkner flag](https://zasia.oss-cn-beijing.aliyuncs.com/ios/githubDemo/demo_flags.png)
 
 5. Get meta info
 

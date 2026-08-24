@@ -9,7 +9,7 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-        
+
         .library(
             name: "ZolozKitWithWebContainer",
             type: .static,
@@ -21,124 +21,160 @@ let package = Package(
             targets: ["ZolozKitWithoutWebContainer"]
         ),
         .library(
-                name: "ZolozKitNfcReader",
-                type: .static,
-                targets: ["ZolozKitNfcReader"]
-            )
-        
+            name: "ZolozKitWithoutXnn",
+            type: .static,
+            targets: ["ZolozKitWithoutXnn"]
+        ),
+        .library(
+            name: "ZolozKitNfcReader",
+            type: .static,
+            targets: ["ZolozKitNfcReader"]
+        ),
+        .library(
+            name: "ZolozKitNfcIDReader",
+            type: .static,
+            targets: ["ZolozKitNfcIDReader"]
+        ),
+        .library(
+            name: "ZolozKitVideoVerify",
+            type: .static,
+            targets: ["ZolozKitVideoVerify"]
+        ),
+        .library(
+            name: "ZolozKitLocationCheck",
+            type: .static,
+            targets: ["ZolozKitLocationCheck"]
+        )
+
     ],
     targets: [
         .binaryTarget(
             name: "zolozkit",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/zolozkit.xcframework.zip",
-            checksum: "ae6fb7b99c0848efcf27de1d9867d58b26c6e11c36d58b9aa20a2e6c1546a3f0"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/zolozkit.xcframework.zip",
+            checksum: "ec7a5be4f83fbaf8439fbb35701472acb921127e9ceb10fbe09c7a2bca0907c1"
         ),
         .binaryTarget(
             name: "hummer",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/hummer.xcframework.zip",
-            checksum: "aa00a383f3746c0444bfe440c77e16305669e8105fadb4a2e7e65c8d2d7153ed"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/hummer.xcframework.zip",
+            checksum: "ba984dd4c6f1749bb4ab7d3fbb72f09070aa086834010980f120babe6c71a6c8"
         ),
         .binaryTarget(
             name: "ZolozIdentityManager",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/ZolozIdentityManager.xcframework.zip",
-            checksum: "e9d867b17c687bb04b43f676a81fb4edcdfd3b94761686f0e2f07f57b180a2ba"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZolozIdentityManager.xcframework.zip",
+            checksum: "06d6aa94d3a7b5c991067b0e452233706e0b070cc79cfd55fa75340585a9772c"
         ),
         .binaryTarget(
             name: "BioAuthEngine",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/BioAuthEngine.xcframework.zip",
-            checksum: "7c729fa1a23d5555d451aed3c0155791b2adafc656774cc6c9ad4687c606c9a0"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/BioAuthEngine.xcframework.zip",
+            checksum: "7d02edc13326e9af4691165be1409824b50abe60de716be0ae5c0ef57de05c27"
         ),
         .binaryTarget(
             name: "BioAuthAPI",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/BioAuthAPI0209.xcframework.zip",
-            checksum: "8a6015c37f3c69c4e1607ad6ff9c2f18e8307fc4ef3f27340d7bc5a78aa2d029"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/BioAuthAPI.xcframework.zip",
+            checksum: "a7c563f74116d7f165f831a11481c4c68042a292a59586ea9c7f196d2a532779"
         ),
         .binaryTarget(
             name: "ZLZProtoBufferLite",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/ZLZProtoBufferLite.xcframework.zip",
-            checksum: "a87a190ae3825fff696c551795da829a1b538dbbb696e97eea3edd9069bc667a"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZLZProtoBufferLite.xcframework.zip",
+            checksum: "c08f2483504a76a925ddf3c49a66ccf248988aa993849b32b37dc8c07c552e0c"
         ),
         .binaryTarget(
             name: "ToygerService",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/ToygerService.xcframework.zip",
-            checksum: "f994b4061fffea2bf7b071d9d9397af213f6c16d61c9f7546ade4f1330e43ce6"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ToygerService.xcframework.zip",
+            checksum: "db74263e31a85ae28babecb34c82418da38a13a4ca4d3eb99a70ef276f65a192"
         ),
         .binaryTarget(
             name: "ToygerServiceAlgo",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/ToygerServiceAlgo.xcframework.zip",
-            checksum: "e39e0e3a5cf8844d7a81c046e365b0505437307874190d7ad08c870b81fdc60c"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ToygerServiceAlgo.xcframework.zip",
+            checksum: "b8a0a708c45edf54413920ab8d343fa7b3c9c7bdc8073b252dc201565336ef34"
         ),
         .binaryTarget(
             name: "xNN",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/xNN.xcframework.zip",
-            checksum: "2d7b1f7d3295fdfbf25b90e10f08cd22cb92d5c33448e96a515b46c5faab8899"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/xNN.xcframework.zip",
+            checksum: "1fbb15d243e8398eebccb764f7deac182b742122bc0950cf69d9a2a0cbb045eb"
         ),
         .binaryTarget(
             name: "APBToygerGarfield",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/APBToygerGarfield.xcframework.zip",
-            checksum: "98325c75c673576d9d9d9ba14c3fbc8433f9ffc1536258d18de2dda6d6e258d5"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/APBToygerGarfield.xcframework.zip",
+            checksum: "8acf1c8d5fac051a3113464d48bcd699f29d8f8e86d2fb1b9edead7c6c03e417"
         ),
         .binaryTarget(
             name: "APPSecuritySDK_ekyc",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/APPSecuritySDK_ekyc0213.xcframework.zip",
-            checksum: "eefdf29222bbb7ddfc4c4f61bfd7e39280d57ecab5675cae0db14b56d691d934"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/APPSecuritySDK_ekyc.xcframework.zip",
+            checksum: "203972c56818b44fcdfdbc8bd1519e6c3676a06bef0dd16accaa4b685ea1c8d3"
         ),
         .binaryTarget(
             name: "faceguard",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/faceguard.xcframework.zip",
-            checksum: "f7cb91d9564c3d8161f82d4a871a85e9418ff794d941fdb3412c28ae048fafee"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/faceguard.xcframework.zip",
+            checksum: "f154ffb87e508e871b37035a4dc8b466b6ca55b63d0f6a3864ef5ef7422e6bdc"
         ),
         .binaryTarget(
             name: "APBToygerFacade",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/APBToygerFacade.xcframework.zip",
-            checksum: "aa821882d76427819ecf790455eff38be1a122c6beee9cb20b4aec6889c6bddb"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/APBToygerFacade.xcframework.zip",
+            checksum: "fc95c3cbdf2a1b432424353df63afda27f4855e759a2baa3132be5ff2ad5dc92"
         ),
         .binaryTarget(
             name: "ZolozDocScan",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/ZolozDocScan.xcframework.zip",
-            checksum: "35b803d902aebbbac6e07ba92367c5e2db35c6dc82098d31ef6bc7b4ad09d72e"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZolozDocScan.xcframework.zip",
+            checksum: "dbfd0b4d479f2a5bfe36a9dcb97d635518603390b5956db05e73c5d86997b50f"
         ),
         .binaryTarget(
             name: "ZolozDoc",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/ZolozDoc.xcframework.zip",
-            checksum: "770e625603136bd0141d058cebb292f5a10e9bff5b569162252136ec45129391"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZolozDoc.xcframework.zip",
+            checksum: "b19aa8c9bfba533ea491da65d2716e7716b36f58eb8142d9dbb5428dce96bde2"
         ),
         .binaryTarget(
             name: "ZolozNfcReader",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/ZolozNfcReader.xcframework.zip",
-            checksum: "5b2debed73820163dd22f56286e048efa8ffb36e46c1eb4c536641834394b34b"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZolozNfcReader.xcframework.zip",
+            checksum: "cb3ba9d793116d0c602973f69f22ed48e688d1a6107d40a5edd02f06a586c4f1"
         ),
         .binaryTarget(
             name: "ZolozSensorServices",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/ZolozSensorServices.xcframework.zip",
-            checksum: "824a6623b24d5b13b22c093a2bb606fd9792d0ba0d8a46718ac5a24496d3ce08"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZolozSensorServices.xcframework.zip",
+            checksum: "02cb6333434db0ae5240f4f7976790ea995c2732701dda890ce5b4523b4abffa"
         ),
         .binaryTarget(
             name: "zrpc",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/zrpc.xcframework.zip",
-            checksum: "55fced9829d766d2a955538be28c6ff22fa574d1c4c8b9746d3a3dc48ec9944d"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/zrpc.xcframework.zip",
+            checksum: "79f4f413f44dea3836cf3b23a5ae692e22626541e3033ce13c14cdd7db0c8aaa"
         ),
         .binaryTarget(
             name: "dfplite",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/dfplite.xcframework.zip",
-            checksum: "f447639bc827653f0dcdfd2d048ccff9353f9fbdf8afbbc40e31f938c5e7fb25"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/dfplite.xcframework.zip",
+            checksum: "1b146bed8dd540061ffc4d5009ee9c7f4f98f4aa03f94affa41f57de4fd1c99d"
         ),
         .binaryTarget(
             name: "APLogLite",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/APLogLite.xcframework.zip",
-            checksum: "75486dbb46f161b5395be566e8199c3d57b6b7d9969afdc342a6d85a9d333214"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/APLogLite.xcframework.zip",
+            checksum: "3a5ce2140e8bba8d2296806caec66fc7f65f2127a3e96033d3ce75e4d136da83"
         ),
         .binaryTarget(
             name: "ZLZWebContainerAdapter",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/ZLZWebContainerAdapter.xcframework.zip",
-            checksum: "c49f609cd549dd4777533947e834200436e805895b0ad3c42ce4ca902fe08e0b"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZLZWebContainerAdapter.xcframework.zip",
+            checksum: "2a8cbf98b6042e74c3770576aca25a3556a90d3145393b056db4095ff5528e09"
         ),
         .binaryTarget(
             name: "WebContainerLite",
-            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.12xc/WebContainerLite.xcframework.zip",
-            checksum: "a707f067cef08882cff0205cf7d5fd983afeb18abb2a7c4166871ad256747b6a"
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/WebContainerLite.xcframework.zip",
+            checksum: "dd840322be8d4792a7ebf96aaeaf4ed2ba2d81a527ea1c4d055accca26c276b5"
         ),
-        
+        // New in 2.2.1
+        .binaryTarget(
+            name: "ZLocationCheck",
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZLocationCheck.xcframework.zip",
+            checksum: "b7c5e182a7373b0e17fbeba9a06b9b1f4ab230c8bc0c45c0f1e4dfdc6c6d0abe"
+        ),
+        .binaryTarget(
+            name: "ZVideoVerify",
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZVideoVerify.xcframework.zip",
+            checksum: "e56f5aa76154392fc2aa3f5c2327a5b897ccc4f6251ba2d21eb91194d78f60cc"
+        ),
+        .binaryTarget(
+            name: "ZolozNfcIDReader",
+            url: "https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.21SPM/ZolozNfcIDReader.xcframework.zip",
+            checksum: "118310426a671ab1e6482a5db1ce9fcfb47d7b487bde5aa5153094857d762151"
+        ),
+
         //MARK: - subTargets
         .target(
             name: "resources",
@@ -151,7 +187,15 @@ let package = Package(
                 .copy("WebContainerLite.bundle")
             ]
         ),
-        
+
+        // xNN (independent from Core, per podspec)
+        .target(
+            name: "ZolozKitXNN",
+            dependencies: [
+                .target(name: "xNN")
+            ]
+        ),
+
         .target(
             name: "ZolozKitCore",
             dependencies: [
@@ -162,11 +206,10 @@ let package = Package(
                 .target(name: "BioAuthAPI"),
                 .target(name: "ZLZProtoBufferLite"),
                 .target(name: "ToygerService"),
-                .target(name: "ToygerServiceAlgo"),
-                .target(name: "xNN")
+                .target(name: "ToygerServiceAlgo")
             ],
             path: "Sources/ZolozKitCore",
-            
+
             linkerSettings: [
                 //系统框架依赖
                 .linkedFramework("AVFoundation"),
@@ -187,23 +230,21 @@ let package = Package(
                 .linkedFramework("AppTrackingTransparency"),
                 .linkedFramework("AdSupport"),
                 .linkedFramework("Security"),
-                .linkedFramework("Speech"),
                 .linkedFramework("VideoToolbox"),
                 .linkedLibrary("c++"),
                 .linkedLibrary("z"),
                 .linkedLibrary("resolv")
             ]
         ),
-        
+
         // Garfield
         .target(
             name: "ZolozKitGarfield",
             dependencies: [
                 .target(name: "APBToygerGarfield")
             ]
-            // 注意：podspec中有lottie-ios依赖，但这里需要用户单独添加
         ),
-        
+
         // APPSecuritySDK
         .target(
             name: "ZolozKitSecurity",
@@ -211,7 +252,7 @@ let package = Package(
                 .target(name: "APPSecuritySDK_ekyc")
             ]
         ),
-        
+
         // faceguard
         .target(
             name: "ZolozKitFaceGuard",
@@ -219,7 +260,7 @@ let package = Package(
                 .target(name: "faceguard")
             ]
         ),
-        
+
         // Cherry
         .target(
             name: "ZolozKitCherry",
@@ -227,7 +268,7 @@ let package = Package(
                 .target(name: "APBToygerFacade")
             ]
         ),
-        
+
         // ZolozDocScan
         .target(
             name: "ZolozKitDocScan",
@@ -235,7 +276,7 @@ let package = Package(
                 .target(name: "ZolozDocScan")
             ]
         ),
-        
+
         // ZolozDoc
         .target(
             name: "ZolozKitDoc",
@@ -243,7 +284,7 @@ let package = Package(
                 .target(name: "ZolozDoc")
             ]
         ),
-        
+
         // Dependency
         .target(
             name: "ZolozKitDependency",
@@ -254,7 +295,7 @@ let package = Package(
                 .target(name: "APLogLite")
             ]
         ),
-        
+
         // ZolozNfcReader
         .target(
             name: "ZolozKitNfcReader",
@@ -263,12 +304,43 @@ let package = Package(
                 .target(name: "ZolozNfcReader")
             ],
             path: "Sources/ZolozKitNfcReader",
-            
+
             linkerSettings: [
                 .linkedFramework("CoreNFC")
             ]
         ),
-        
+
+        // ZolozNfcIDReader (new in 2.2.1)
+        .target(
+            name: "ZolozKitNfcIDReader",
+            dependencies: [
+                .target(name: "ZolozNfcIDReader")
+            ],
+            linkerSettings: [
+                .linkedFramework("CoreNFC")
+            ]
+        ),
+
+        // ZolozVideoVerify (new in 2.2.1)
+        .target(
+            name: "ZolozKitVideoVerify",
+            dependencies: [
+                .target(name: "ZVideoVerify")
+            ],
+            linkerSettings: [
+                .linkedFramework("Speech"),
+                .linkedFramework("VideoToolbox")
+            ]
+        ),
+
+        // ZLocationCheck (new in 2.2.1)
+        .target(
+            name: "ZolozKitLocationCheck",
+            dependencies: [
+                .target(name: "ZLocationCheck")
+            ]
+        ),
+
         // ZWebContainerAdapter
         .target(
             name: "ZolozKitWebContainer",
@@ -277,11 +349,10 @@ let package = Package(
                 .target(name: "WebContainerLite")
             ],
             path: "Sources/ZolozKitWebContainer",
-            
+
         ),
-        
-        
-        // zolozkitWithWebContainer
+
+        // zolozkitWithWebContainer (+ xNN)
         .target(
             name: "ZolozKitWithWebContainer",
             dependencies: [
@@ -292,11 +363,12 @@ let package = Package(
                 .target(name: "ZolozKitSecurity"),
                 .target(name: "ZolozKitFaceGuard"),
                 .target(name: "ZolozKitWebContainer"),
+                .target(name: "ZolozKitXNN"),
                 .target(name: "resources"),
             ],
         ),
-        
-        // zolozkitWithoutWebContainer
+
+        // zolozkitWithoutWebContainer (+ xNN)
         .target(
             name: "ZolozKitWithoutWebContainer",
             dependencies: [
@@ -306,6 +378,22 @@ let package = Package(
                 .target(name: "ZolozKitDependency"),
                 .target(name: "ZolozKitSecurity"),
                 .target(name: "ZolozKitFaceGuard"),
+                .target(name: "ZolozKitXNN"),
+                .target(name: "resources"),
+            ],
+        ),
+
+        // zolozkitWithoutXnn (ZolozKitWithWebContainer - xNN)
+        .target(
+            name: "ZolozKitWithoutXnn",
+            dependencies: [
+                .target(name: "ZolozKitCherry"),
+                .target(name: "ZolozKitDocScan"),
+                .target(name: "ZolozKitCore"),
+                .target(name: "ZolozKitDependency"),
+                .target(name: "ZolozKitSecurity"),
+                .target(name: "ZolozKitFaceGuard"),
+                .target(name: "ZolozKitWebContainer"),
                 .target(name: "resources"),
             ],
         )

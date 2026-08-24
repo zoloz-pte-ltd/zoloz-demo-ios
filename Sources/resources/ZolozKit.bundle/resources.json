@@ -41,6 +41,12 @@
     "zdoc_line_color_light": "#FF0064FF",
     "zdoc_scan_frame_tips_color": "#FF000000",
     "zface_common_remind_color": "#FF0064FF",
+    "zface_willing_reminder_color": "#FF999999",
+    "zface_willing_prompt_bg_color": "#FFF4FAFF",
+    "zface_willing_prompt_init_color": "#4500041A",
+    "zface_willing_prompt_done_color": "#FF1677FF",
+    "zface_willing_confirm_txt_init_color": "#4500041A",
+    "zface_willing_confirm_txt_done_color": "#FF1677FF",
     "upload_image_icon_bgc": "#06000055"
   },
   "image": {

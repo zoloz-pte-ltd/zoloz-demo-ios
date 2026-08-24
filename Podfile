@@ -20,8 +20,11 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 source 'https://github.com/zoloz-pte-ltd/zoloz-demo-ios'
+
+platform :ios, '15.0'
+
 target 'ZolozDemo' do
   #We recommend use our latest version, which includes new features and security improvements. If you need more information about specific version, please check the change log (https://docs.zoloz.com/zoloz/saas/releasenotes)
-  pod 'zolozkit'  #core modules
-  pod 'zolozkit/ZolozNfcReader' #nfc reader module
+  pod 'zolozkit'  
+  pod 'zolozkit/ZolozNfcReader' 
 end
