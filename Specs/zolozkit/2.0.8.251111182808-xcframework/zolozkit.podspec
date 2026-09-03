@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = { "zolozAdmin" => "zoloz-github@antgroup.com" }
   s.platform     = :ios, '8.0'
   s.ios.deployment_target = '8.0'
-  s.source = { :http => 'https://zasia.oss-cn-beijing.aliyuncs.com/ios/framework/2.0.8.251111182808-xcframework.zip' }
+  s.source = { :http => 'https://hk-production-cdn.zoloz.net/ios/2.0.8.251111182808-xcframework.zip' }
   s.frameworks = "AVFoundation", "OpenGLES","CoreTelephony", "CoreMotion", "CoreLocation", "SystemConfiguration", "Accelerate", "CoreMedia","CoreServices","CoreGraphics","QuartzCore","CoreVideo","CoreImage", "WebKit", "Vision","AppTrackingTransparency","AdSupport","Security"
   s.libraries = 'c++', 'z','resolv'
   s.subspec 'Core' do |core|
@@ -78,4 +78,3 @@ Pod::Spec.new do |s|
   s.default_subspec = 'zolozkitWithWebContainer'
   s.requires_arc = true
 end
-
