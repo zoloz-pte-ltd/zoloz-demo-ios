@@ -100,8 +100,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "APPSecuritySDK_ekyc",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/APPSecuritySDK_ekyc.xcframework.zip",
-            checksum: "203972c56818b44fcdfdbc8bd1519e6c3676a06bef0dd16accaa4b685ea1c8d3"
+            url: "https://hk-production-cdn.zoloz.net/ios/2.2.1spm/APPSecuritySDK_ekyc.xcframework.zip",
+            checksum: "fb94329ab59a9361589dfd49e5151f0109a98f2fdb699565eb80d7a51c80e1be"
         ),
         .binaryTarget(
             name: "faceguard",
