@@ -434,7 +434,7 @@
   "zdoc_id_is_tilted_msg": "请确保您的证件是清晰且无倾斜",
   "zdoc_multiple_id_detected_title": "图中存在多个证件",
   "zdoc_multiple_id_detected_msg": "请确保您的证件是清晰且无多证件同时存在",
-  "zface_willing_prompt": "您正在申请贷款，可能需要提供个人担保。请确认您是自愿提供，并同意相关条款。请说：“同意。”",
+  "zface_willing_prompt": "您正在申请贷款，可能需要提供个人担保。请确认您是自愿提供，并同意相关条款。请说，同意",
   "zface_willing_no_voice": "没有识别您的声音",
   "zface_willing_answer_not_match": "您的回答不正确",
   "zface_willing_reminder": "请清晰地说出：“同意”",

@@ -50,129 +50,136 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "zolozkit",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/zolozkit.xcframework.zip",
-            checksum: "ec7a5be4f83fbaf8439fbb35701472acb921127e9ceb10fbe09c7a2bca0907c1"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/zolozkit.xcframework.zip",
+            checksum: "11f26cd32d80aedf00b7f20615ba11f16f9b069754a2e9a1fffdbb54058f365e"
         ),
         .binaryTarget(
             name: "hummer",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/hummer.xcframework.zip",
-            checksum: "ba984dd4c6f1749bb4ab7d3fbb72f09070aa086834010980f120babe6c71a6c8"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/hummer.xcframework.zip",
+            checksum: "a1a452f29b0bee03896cdba10ced8ebb9ecbd50bb48ee40c4f2ce76505a2f8b0"
         ),
         .binaryTarget(
             name: "ZolozIdentityManager",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZolozIdentityManager.xcframework.zip",
-            checksum: "06d6aa94d3a7b5c991067b0e452233706e0b070cc79cfd55fa75340585a9772c"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZolozIdentityManager.xcframework.zip",
+            checksum: "35a528ce62781c0d91bd0ae92899fabb3e183fee2bd72c0e55506af061954935"
         ),
         .binaryTarget(
             name: "BioAuthEngine",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/BioAuthEngine.xcframework.zip",
-            checksum: "7d02edc13326e9af4691165be1409824b50abe60de716be0ae5c0ef57de05c27"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/BioAuthEngine.xcframework.zip",
+            checksum: "d97b806826fc08d07078a819eaae17468b2a20cc961558d53fd011c8591b511d"
         ),
         .binaryTarget(
             name: "BioAuthAPI",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/BioAuthAPI.xcframework.zip",
-            checksum: "a7c563f74116d7f165f831a11481c4c68042a292a59586ea9c7f196d2a532779"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/BioAuthAPI.xcframework.zip",
+            checksum: "d0f12da878809b2544a4ee9674b84947906be93251edf4d2f29f539e198ae97c"
         ),
         .binaryTarget(
             name: "ZLZProtoBufferLite",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZLZProtoBufferLite.xcframework.zip",
-            checksum: "c08f2483504a76a925ddf3c49a66ccf248988aa993849b32b37dc8c07c552e0c"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZLZProtoBufferLite.xcframework.zip",
+            checksum: "1e79cf23f40821ba6a71507a6a315d36b695fa43a0fed3ede419c03ef63066ca"
         ),
         .binaryTarget(
             name: "ToygerService",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ToygerService.xcframework.zip",
-            checksum: "db74263e31a85ae28babecb34c82418da38a13a4ca4d3eb99a70ef276f65a192"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ToygerService.xcframework.zip",
+            checksum: "3183faece9aab5875ab5730e09482c1cae1430c01692670c163e5ba5e9b1170e"
         ),
         .binaryTarget(
             name: "ToygerServiceAlgo",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ToygerServiceAlgo.xcframework.zip",
-            checksum: "b8a0a708c45edf54413920ab8d343fa7b3c9c7bdc8073b252dc201565336ef34"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ToygerServiceAlgo.xcframework.zip",
+            checksum: "0993bda1e8ab74905dcfe776c7249cf671e4d9d67ae90d0b7cd2d970e31f8855"
         ),
         .binaryTarget(
             name: "xNN",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/xNN.xcframework.zip",
-            checksum: "1fbb15d243e8398eebccb764f7deac182b742122bc0950cf69d9a2a0cbb045eb"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/xNN.xcframework.zip",
+            checksum: "98388a0c0bc37a4f18b5cc9f810ff9fd954b60be72a78dde81f1605ebb50a6b4"
         ),
         .binaryTarget(
             name: "APBToygerGarfield",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/APBToygerGarfield.xcframework.zip",
-            checksum: "8acf1c8d5fac051a3113464d48bcd699f29d8f8e86d2fb1b9edead7c6c03e417"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/APBToygerGarfield.xcframework.zip",
+            checksum: "920eab3d1721238d099d3b373035f2dd6730d108ad526ff8e35a932fa32eafd0"
         ),
         .binaryTarget(
             name: "APPSecuritySDK_ekyc",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.2.1spm/APPSecuritySDK_ekyc.xcframework.zip",
-            checksum: "fb94329ab59a9361589dfd49e5151f0109a98f2fdb699565eb80d7a51c80e1be"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/APPSecuritySDK_ekyc.xcframework.zip",
+            checksum: "b981170055a881ab9c3927b034e94e31e829b236fa9e50057757e7e5d9e9e884"
         ),
         .binaryTarget(
             name: "faceguard",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/faceguard.xcframework.zip",
-            checksum: "f154ffb87e508e871b37035a4dc8b466b6ca55b63d0f6a3864ef5ef7422e6bdc"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/faceguard.xcframework.zip",
+            checksum: "d364ddde7838c6ac78388f1b6e626e533fcabf8f02453945855f61d9f0cd60f1"
         ),
         .binaryTarget(
             name: "APBToygerFacade",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/APBToygerFacade.xcframework.zip",
-            checksum: "fc95c3cbdf2a1b432424353df63afda27f4855e759a2baa3132be5ff2ad5dc92"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/APBToygerFacade.xcframework.zip",
+            checksum: "d139af472ab0bd66e561e37257d2904944b148dca690252bce51fc1df80ba1fa"
         ),
         .binaryTarget(
             name: "ZolozDocScan",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZolozDocScan.xcframework.zip",
-            checksum: "dbfd0b4d479f2a5bfe36a9dcb97d635518603390b5956db05e73c5d86997b50f"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZolozDocScan.xcframework.zip",
+            checksum: "0f9007bfc75292c5d1006167d121569914cbdd970eeb348f983aa0d29b329be3"
         ),
         .binaryTarget(
             name: "ZolozDoc",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZolozDoc.xcframework.zip",
-            checksum: "b19aa8c9bfba533ea491da65d2716e7716b36f58eb8142d9dbb5428dce96bde2"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZolozDoc.xcframework.zip",
+            checksum: "64202e68fad5c683fd6ba0439005071ebc090a9f4166e01e6bb3442300e09897"
         ),
         .binaryTarget(
             name: "ZolozNfcReader",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZolozNfcReader.xcframework.zip",
-            checksum: "cb3ba9d793116d0c602973f69f22ed48e688d1a6107d40a5edd02f06a586c4f1"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZolozNfcReader.xcframework.zip",
+            checksum: "31f7e3ddcb9bca2cb39ca3e1f3ad158b6621ece7954ed63e65aa3f4dd66e8275"
         ),
         .binaryTarget(
             name: "ZolozSensorServices",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZolozSensorServices.xcframework.zip",
-            checksum: "02cb6333434db0ae5240f4f7976790ea995c2732701dda890ce5b4523b4abffa"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZolozSensorServices.xcframework.zip",
+            checksum: "71adf324befc4db7bb487d0c204c611eea8b7c7fa0e9b814012f796efc418e5f"
         ),
         .binaryTarget(
             name: "zrpc",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/zrpc.xcframework.zip",
-            checksum: "79f4f413f44dea3836cf3b23a5ae692e22626541e3033ce13c14cdd7db0c8aaa"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/zrpc.xcframework.zip",
+            checksum: "42826012c4e0d60141013ff55ad126dcd45272903b783458c3bfd7f71c22aac6"
         ),
         .binaryTarget(
             name: "dfplite",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/dfplite.xcframework.zip",
-            checksum: "1b146bed8dd540061ffc4d5009ee9c7f4f98f4aa03f94affa41f57de4fd1c99d"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/dfplite.xcframework.zip",
+            checksum: "3427d53d0fe79a95200eaca13dc29f91c6fad83654c28ac91652a794d94da4cb"
         ),
         .binaryTarget(
             name: "APLogLite",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/APLogLite.xcframework.zip",
-            checksum: "3a5ce2140e8bba8d2296806caec66fc7f65f2127a3e96033d3ce75e4d136da83"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/APLogLite.xcframework.zip",
+            checksum: "9ecc8e082aad31d6d25a99e9b66e460e02112d88f8f6d7595a8a6abc5d04e2d5"
         ),
         .binaryTarget(
             name: "ZLZWebContainerAdapter",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZLZWebContainerAdapter.xcframework.zip",
-            checksum: "2a8cbf98b6042e74c3770576aca25a3556a90d3145393b056db4095ff5528e09"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZLZWebContainerAdapter.xcframework.zip",
+            checksum: "8e0b8131f2b7d9f35303b77ab3968309518aa074aac65c28fc965dcd402a66b4"
         ),
         .binaryTarget(
             name: "WebContainerLite",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/WebContainerLite.xcframework.zip",
-            checksum: "dd840322be8d4792a7ebf96aaeaf4ed2ba2d81a527ea1c4d055accca26c276b5"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/WebContainerLite.xcframework.zip",
+            checksum: "1d588b1631d03712ba14d6a538c49e7a2084377c0b857a91e70dde3d0dfa9d0f"
         ),
         // New in 2.2.1
         .binaryTarget(
             name: "ZLocationCheck",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZLocationCheck.xcframework.zip",
-            checksum: "b7c5e182a7373b0e17fbeba9a06b9b1f4ab230c8bc0c45c0f1e4dfdc6c6d0abe"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZLocationCheck.xcframework.zip",
+            checksum: "e0035279d980795fac901e55ffce03df87343336fc48aefabb91760c9134e25d"
         ),
         .binaryTarget(
             name: "ZVideoVerify",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZVideoVerify.xcframework.zip",
-            checksum: "e56f5aa76154392fc2aa3f5c2327a5b897ccc4f6251ba2d21eb91194d78f60cc"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZVideoVerify.xcframework.zip",
+            checksum: "4b95f56fab8cb13e841c0cdec683cb103796c3bcd46b410d0bacce653ab266a1"
+        ),
+
+        // nuisdk (new in 2.2.8)
+        .binaryTarget(
+            name: "nuisdk",
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/nuisdk.xcframework.zip",
+            checksum: "6f5d7e71af444cff3c8ce5af0182bd57c8facf6b0c2014264024e8db7f00a182"
         ),
         .binaryTarget(
             name: "ZolozNfcIDReader",
-            url: "https://hk-production-cdn.zoloz.net/ios/2.21SPM/ZolozNfcIDReader.xcframework.zip",
-            checksum: "118310426a671ab1e6482a5db1ce9fcfb47d7b487bde5aa5153094857d762151"
+            url: "https://hk-production-cdn.zoloz.net/ios/SPM/2.2.8/ZolozNfcIDReader.xcframework.zip",
+            checksum: "1d97cbe21c31146f70b20a9154a6a18e5f7aa8b45701d4dcf899ff5d6d5ce0da"
         ),
 
         //MARK: - subTargets
@@ -325,11 +332,15 @@ let package = Package(
         .target(
             name: "ZolozKitVideoVerify",
             dependencies: [
-                .target(name: "ZVideoVerify")
+                .target(name: "ZVideoVerify"),
+                .target(name: "nuisdk")
             ],
             linkerSettings: [
-                .linkedFramework("Speech"),
-                .linkedFramework("VideoToolbox")
+                .linkedFramework("AVFoundation"),
+                .linkedFramework("AudioToolbox"),
+                .linkedFramework("AdSupport"),
+                .linkedFramework("VideoToolbox"),
+                .linkedLibrary("iconv")
             ]
         ),
 
